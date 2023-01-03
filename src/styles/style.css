@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #777;
+}
+
+.whole {
+  background-color: #555;
+  height: fit-content;
+  width: 95vw;
+  max-width: fit-content;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem auto;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+button {
+  background-color: #a52a2a;
+  color: #fff;
+  height: fit-content;
+  width: fit-content;
+  border: none;
+  border-radius: 100%;
+  padding: 9px 15px;
+  margin: 0 10px;
+  font-size: 20px;
+}
